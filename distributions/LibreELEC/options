@@ -245,7 +245,7 @@
   CEC_SUPPORT="yes"
 
 # build and install CEC framework support (yes / no)
-  CEC_FRAMEWORK_SUPPORT="no"
+  CEC_FRAMEWORK_SUPPORT="yes"
 
 # OEM packages for OEM's (yes / no)
   OEM_SUPPORT="no"

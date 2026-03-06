@@ -4,11 +4,11 @@
 
 PKG_NAME="taglib"
 PKG_VERSION="2.2"
-PKG_SHA256="c89e7ebd450535e77c9230fac3985fcdce7bee05e06c9cd0bc36d50184e9c9dd"
+PKG_SHA256="56b7bf4774c28c7053c45042f1bd8a80c9c43ee0b283efe2af3366484334b2bc"
 PKG_LICENSE="LGPL"
 PKG_SITE="https://taglib.org"
-PKG_URL="https://taglib.org/releases/${PKG_NAME}-${PKG_VERSION}.tar.gz"
-PKG_DEPENDS_TARGET="toolchain cmake:host zlib"
+PKG_URL="https://reva.blob.core.windows.net/nucs/taglib-2.2.tar.gz"
+PKG_DEPENDS_TARGET="toolchain cmake:host utfcpp zlib"
 PKG_LONGDESC="TagLib is a library for reading and editing the meta-data of several popular audio formats."
 
 PKG_CMAKE_OPTS_TARGET="-DBUILD_EXAMPLES=OFF \

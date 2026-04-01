@@ -45,9 +45,7 @@
 
   # SquashFS compression method (gzip / lzo / xz / zstd)
     SQUASHFS_COMPRESSION="zstd"
-	
-    CEC_FRAMEWORK_SUPPORT="yes"
-
+	 
 ################################################################################
 # setup project defaults
 ################################################################################
@@ -56,6 +54,8 @@
   # Space separated list is supported,
   # e.g. FIRMWARE="dvb-firmware misc-firmware wlan-firmware"
     FIRMWARE="misc-firmware wlan-firmware dvb-firmware iwlwifi-firmware"
+	
+	CEC_FRAMEWORK_SUPPORT="yes"
 
   # additional drivers to install:
   # for a list of additional drivers see packages/linux-drivers
